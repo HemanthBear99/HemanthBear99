@@ -1,0 +1,59 @@
+name: Update README with Recent Work
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once daily
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch recent repositories
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: 'HemanthBear99',
+              sort: 'updated',
+              per_page: 5
+            });
+
+            const work = repos.slice(0, 3)
+              .map(r => `- **${r.name}** — ${r.description || 'No description yet'}`)
+              .join('\n');
+
+            const projectsTable = [
+              '| Project | Description | Tech |',
+              '|--------|-------------|------|',
+              ...repos.slice(0, 3).map(r =>
+                `| **${r.name}** | ${r.description || '—'} | ${r.language || '—'} |`
+              )
+            ].join('\n');
+
+            let readme = fs.readFileSync('README.md', 'utf8');
+
+            readme = readme.replace(
+              /<!-- CURRENT-WORK-START -->[\s\S]*?<!-- CURRENT-WORK-END -->/,
+              `<!-- CURRENT-WORK-START -->\n${work}\n<!-- CURRENT-WORK-END -->`
+            );
+
+            readme = readme.replace(
+              /<!-- PROJECTS-START -->[\s\S]*?<!-- PROJECTS-END -->/,
+              `<!-- PROJECTS-START -->\n${projectsTable}\n<!-- PROJECTS-END -->`
+            );
+
+            fs.writeFileSync('README.md', readme);
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-update current work & projects" || exit 0
+          git push
