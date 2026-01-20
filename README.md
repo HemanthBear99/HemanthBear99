@@ -1,16 +1,74 @@
-## Hi there 👋
+<div align="center">
+  <img src="./header.png" alt="HemanthBear99 Banner" width="100%" />
+  
+  <br/>
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=Full-Stack+Architect;Deep+Learning+Researcher;Java+%26+React+Specialist;Building+Intelligence+from+Data" alt="Typing SVG" />
+  </a>
+</div>
 
-<!--
-**HemanthBear99/HemanthBear99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 👨‍💻 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am a researcher and developer bridging the gap between **academic theory** and **enterprise production**. With a background in competitive exams and a transition from text-based to **sound-based (PCG) datasets**, I specialize in building systems that can "see" and "hear" to solve complex problems.
+
+- 🔭 **Currently working on:** A **PIT-GNN model** for supply chain forecasting.
+- 🌱 **Learning:** Advanced integration of **BERT** with gated mechanisms (SwiGLU).
+- 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows.
+- ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server.
+
+---
+
+### 🛠️ The Arsenal (Tech Stack)
+
+<div align="center">
+
+| **Core** | **Frontend** | **AI & Data** | **Tools** |
+| :---: | :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"> | <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> | <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"> | <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"> |
+| <img src="https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=mathworks&logoColor=white"> | <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"> | <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white"> | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"> |
+| | <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"> | <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"> | |
+
+</div>
+
+---
+
+### 📊 GitHub Stats & Dynamics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HemanthBear99&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="180" alt="stats graph" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HemanthBear99&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=39FF14" height="180" alt="languages graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HemanthBear99&theme=radical&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="streak graph" />
+</div>
+
+---
+
+### 🏆 Featured Projects
+
+| **Project** | **Description** | **Tech** |
+| :--- | :--- | :--- |
+| **PIT-GNN Forecaster** | A Physics-Informed Temporal Fusion Transformer for predicting supply chain failures. | `Python` `PyTorch` |
+| **PCG Heart Auditor** | Transitioned research from text to sound datasets to classify heart anomalies. | `MATLAB` `CNN` |
+| **Thesis Automator** | A Java-based tool for PhD students to automate code & thesis validation. | `Java` `Spring Boot` |
+
+---
+
+<div align="center">
+
+### 🤝 Connect with Me
+<a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:YOUR_EMAIL@example.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+
+</div>
