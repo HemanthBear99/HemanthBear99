@@ -17,7 +17,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
-- **HemanthBear99** — I am a researcher and developer bridging the gap between **academic theory** and...
+- **HemanthBear99** — I am a **Lead Full-Stack Architect** and **AI Researcher** bridging the gap betw...
 - **Rocket** — # RLV Phase-I Ascent Simulation...
 - **cs-flow** — A full-stack, production-ready workflow and task management platform for teams w...
 <!-- CURRENT-WORK-END -->
@@ -62,7 +62,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 <!-- PROJECTS-START -->
 | Project | Description | Tech |
 |--------|-------------|------|
-| **HemanthBear99** | I am a researcher and developer bridging the gap between **academic theory** and... | — |
+| **HemanthBear99** | I am a **Lead Full-Stack Architect** and **AI Researcher** bridging the gap betw... | — |
 | **Rocket** | # RLV Phase-I Ascent Simulation... | Python |
 | **cs-flow** | A full-stack, production-ready workflow and task management platform for teams w... | JavaScript |
 <!-- PROJECTS-END -->
