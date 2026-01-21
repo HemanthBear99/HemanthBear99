@@ -17,9 +17,10 @@ With a background in competitive exams and a transition from text-based to **sou
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
+- **HemanthBear99** — No description yet
+- **Rocket** — No description yet
+- **cs-flow** — No description yet
 <!-- CURRENT-WORK-END -->
-
-- 🌱 **Learning:** Advanced integration of **BERT** with gated mechanisms (SwiGLU)
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
 
@@ -58,6 +59,11 @@ With a background in competitive exams and a transition from text-based to **sou
 ## 🏆 Featured Projects 
 
 <!-- PROJECTS-START -->
+| Project | Description | Tech |
+|--------|-------------|------|
+| **HemanthBear99** | — | — |
+| **Rocket** | — | Python |
+| **cs-flow** | — | JavaScript |
 <!-- PROJECTS-END -->
 
 ---
