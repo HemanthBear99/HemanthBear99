@@ -1,5 +1,9 @@
 name: Update README with Recent Work
 
+# allow the workflow to write repo contents
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"   # runs once daily
@@ -11,6 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true   # ensure git uses GITHUB_TOKEN for push
+          fetch-depth: 0
 
       - name: Fetch recent repositories
         uses: actions/github-script@v7
@@ -56,4 +63,4 @@ jobs:
           git config user.email "actions@github.com"
           git add README.md
           git commit -m "Auto-update current work & projects" || exit 0
-          git push
+          git push origin HEAD:${{ github.ref_name }}
