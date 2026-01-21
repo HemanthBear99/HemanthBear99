@@ -21,8 +21,6 @@ With a background in competitive exams and a transition from text-based to **sou
 - **Rocket** — No description yet
 - **cs-flow** — No description yet
 <!-- CURRENT-WORK-END -->
-
-- 🌱 **Learning:** Advanced integration of **BERT** with gated mechanisms (SwiGLU)
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
 
