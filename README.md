@@ -8,11 +8,13 @@
   </a>
 </div>
 
+<!-- Trophy Service Currently Down (503)
 <div align="center">
   <a href="https://github-profile-trophy.vercel.app/?username=HemanthBear99&theme=radical&no-frame=true&no-bg=true&margin-w=4">
     <img src="https://github-profile-trophy.vercel.app/?username=HemanthBear99&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="trophy_case" />
   </a>
 </div>
+-->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
@@ -58,6 +60,8 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HemanthBear99&theme=radical&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="streak graph" />
 </div>
+<br/>
+<img src="https://raw.githubusercontent.com/HemanthBear99/HemanthBear99/output/github-contribution-grid-snake.svg" alt="snake animation" />
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
