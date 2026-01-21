@@ -90,7 +90,10 @@ jobs:
                 const repoName = event.repo.name.split('/')[1];
                 let action = '';
                 if (event.type === 'PushEvent') {
-                  const commitMsg = event.payload.commits[0]?.message.split('\n')[0] || 'Pushed code';
+                  const commits = event.payload.commits || [];
+                  const commitMsg = (commits[0] && commits[0].message) 
+                    ? commits[0].message.split('\n')[0] 
+                    : 'Pushed code';
                   action = `🔨 Pushed to **${repoName}**: "${commitMsg}"`;
                 } else if (event.type === 'CreateEvent') {
                   action = `🚀 Created new repository **${repoName}**`;
