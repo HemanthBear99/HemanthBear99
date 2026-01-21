@@ -66,8 +66,8 @@ jobs:
             }));
 
             const work = processedRepos
-              .map(r => `- **${r.name}** — ${r.dynamicDescription}`)
-              .join('\n');
+              .map(r => `<a href="${r.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=${r.name}&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a>`)
+              .join(' ');
 
             const projectsTable = [
               '| Project | Description | Tech |',

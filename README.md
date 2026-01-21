@@ -8,7 +8,13 @@
   </a>
 </div>
 
----
+<div align="center">
+  <a href="https://github-profile-trophy.vercel.app/?username=HemanthBear99&theme=radical&no-frame=true&no-bg=true&margin-w=4">
+    <img src="https://github-profile-trophy.vercel.app/?username=HemanthBear99&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="trophy_case" />
+  </a>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 👨‍💻 About Me
 
@@ -24,7 +30,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 🛠️ The Arsenal (Tech Stack)
 
@@ -39,7 +45,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 📊 GitHub Stats & Dynamics
 
@@ -55,7 +61,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HemanthBear99&theme=radical&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="streak graph" />
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 🏆 Featured Projects 
 
@@ -67,7 +73,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 | **cs-flow** | A full-stack, production-ready workflow and task management platform for teams w... | JavaScript |
 <!-- PROJECTS-END -->
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 📈 Latest Activity
 
@@ -79,7 +85,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 - 🔨 Pushed to **HemanthBear99**: "Pushed code"
 <!-- ACTIVITY-END -->
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ## 🤝 Connect with Me
 
