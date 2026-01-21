@@ -13,7 +13,7 @@
 ## 👨‍💻 About Me
 
 I am a **Lead Full-Stack Architect** and **AI Researcher** bridging the gap between **academic theory** and **enterprise production**.  
-With a background in competitive exams and a transition from text-based to **sound-based (PCG) datasets**, I specialize in building **Agentic Systems** that can **"see" and "hear"** to solve complex problems.
+I specialize in **Multimodal AI** and **Agentic Architectures**, designing autonomous systems that integrate complex data streams to solve high-dimensionality problems.
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
