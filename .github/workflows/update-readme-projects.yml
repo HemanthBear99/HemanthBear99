@@ -25,24 +25,81 @@ jobs:
           script: |
             const fs = require('fs');
 
+            // 1. Fetch Repositories
             const { data: repos } = await github.rest.repos.listForUser({
               username: 'HemanthBear99',
               sort: 'updated',
               per_page: 5
             });
 
-            const work = repos.slice(0, 3)
-              .map(r => `- **${r.name}** — ${r.description || 'No description yet'}`)
+            // Helper to get description from README if missing
+            async function getDynamicDescription(repo) {
+              if (repo.description) return repo.description;
+              try {
+                const { data: readme } = await github.rest.repos.getReadme({
+                  owner: repo.owner.login,
+                  repo: repo.name
+                });
+                const content = Buffer.from(readme.content, 'base64').toString('utf8');
+                
+                // Simple cleanup to find the first meaningful text
+                const cleanText = content
+                  .replace(/^#+\s+.+$/gm, '')        // Remove headers
+                  .replace(/!\[.*?\]\(.*?\)/g, '')   // Remove images
+                  .replace(/<[^>]*>/g, '')           // Remove HTML tags
+                  .replace(/\[([^\]]+)\]\(.*?\)/g, '$1') // Remove links but keep text
+                  .split('\n')
+                  .map(line => line.trim())
+                  .filter(line => line.length > 20 && !line.startsWith('|') && !line.startsWith('-')) // meaningful lines
+                  .shift();
+
+                return cleanText ? cleanText.substring(0, 80) + '...' : 'No description available';
+              } catch (e) {
+                return 'No description available';
+              }
+            }
+
+            // Process repos in parallel
+            const processedRepos = await Promise.all(repos.slice(0, 3).map(async (r) => {
+              r.dynamicDescription = await getDynamicDescription(r);
+              return r;
+            }));
+
+            const work = processedRepos
+              .map(r => `- **${r.name}** — ${r.dynamicDescription}`)
               .join('\n');
 
             const projectsTable = [
               '| Project | Description | Tech |',
               '|--------|-------------|------|',
-              ...repos.slice(0, 3).map(r =>
-                `| **${r.name}** | ${r.description || '—'} | ${r.language || '—'} |`
+              ...processedRepos.map(r =>
+                `| **${r.name}** | ${r.dynamicDescription} | ${r.language || '—'} |`
               )
             ].join('\n');
 
+            // 2. Fetch Recent Activity
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: 'HemanthBear99',
+              per_page: 20
+            });
+
+            const recentActivity = events
+              .filter(event => event.type === 'PushEvent' || event.type === 'CreateEvent')
+              .slice(0, 5)
+              .map(event => {
+                const repoName = event.repo.name.split('/')[1];
+                let action = '';
+                if (event.type === 'PushEvent') {
+                  const commitMsg = event.payload.commits[0]?.message.split('\n')[0] || 'Pushed code';
+                  action = `🔨 Pushed to **${repoName}**: "${commitMsg}"`;
+                } else if (event.type === 'CreateEvent') {
+                  action = `🚀 Created new repository **${repoName}**`;
+                }
+                return `- ${action}`;
+              })
+              .join('\n');
+
+            // 3. Update README
             let readme = fs.readFileSync('README.md', 'utf8');
 
             readme = readme.replace(
@@ -53,6 +110,11 @@ jobs:
             readme = readme.replace(
               /<!-- PROJECTS-START -->[\s\S]*?<!-- PROJECTS-END -->/,
               `<!-- PROJECTS-START -->\n${projectsTable}\n<!-- PROJECTS-END -->`
+            );
+            
+            readme = readme.replace(
+              /<!-- ACTIVITY-START -->[\s\S]*?<!-- ACTIVITY-END -->/,
+              `<!-- ACTIVITY-START -->\n${recentActivity || 'No recent public activity found.'}\n<!-- ACTIVITY-END -->`
             );
 
             fs.writeFileSync('README.md', readme);

@@ -62,6 +62,13 @@ With a background in competitive exams and a transition from text-based to **sou
 
 ---
 
+## 📈 Latest Activity
+
+<!-- ACTIVITY-START -->
+<!-- ACTIVITY-END -->
+
+---
+
 ## 🤝 Connect with Me
 
 <div align="center">
