@@ -17,9 +17,9 @@ With a background in competitive exams and a transition from text-based to **sou
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
-- **HemanthBear99** — No description yet
-- **Rocket** — No description yet
-- **cs-flow** — No description yet
+- **HemanthBear99** — I am a researcher and developer bridging the gap between **academic theory** and...
+- **Rocket** — # RLV Phase-I Ascent Simulation...
+- **cs-flow** — A full-stack, production-ready workflow and task management platform for teams w...
 <!-- CURRENT-WORK-END -->
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
@@ -61,9 +61,9 @@ With a background in competitive exams and a transition from text-based to **sou
 <!-- PROJECTS-START -->
 | Project | Description | Tech |
 |--------|-------------|------|
-| **HemanthBear99** | — | — |
-| **Rocket** | — | Python |
-| **cs-flow** | — | JavaScript |
+| **HemanthBear99** | I am a researcher and developer bridging the gap between **academic theory** and... | — |
+| **Rocket** | # RLV Phase-I Ascent Simulation... | Python |
+| **cs-flow** | A full-stack, production-ready workflow and task management platform for teams w... | JavaScript |
 <!-- PROJECTS-END -->
 
 ---
@@ -71,6 +71,11 @@ With a background in competitive exams and a transition from text-based to **sou
 ## 📈 Latest Activity
 
 <!-- ACTIVITY-START -->
+- 🔨 Pushed to **HemanthBear99**: "Pushed code"
+- 🔨 Pushed to **HemanthBear99**: "Pushed code"
+- 🔨 Pushed to **HemanthBear99**: "Pushed code"
+- 🔨 Pushed to **HemanthBear99**: "Pushed code"
+- 🔨 Pushed to **HemanthBear99**: "Pushed code"
 <!-- ACTIVITY-END -->
 
 ---
