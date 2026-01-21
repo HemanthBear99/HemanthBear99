@@ -23,9 +23,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
-- **HemanthBear99** — I am a **Lead Full-Stack Architect** and **AI Researcher** bridging the gap betw...
-- **Rocket** — # RLV Phase-I Ascent Simulation...
-- **cs-flow** — A full-stack, production-ready workflow and task management platform for teams w...
+<a href="https://github.com/HemanthBear99/HemanthBear99"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=HemanthBear99&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/Rocket"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=Rocket&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/cs-flow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=cs-flow&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a>
 <!-- CURRENT-WORK-END -->
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
