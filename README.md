@@ -57,9 +57,9 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 
 <br/>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HemanthBear99&theme=radical&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="streak graph" />
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://api.star-history.com/svg?repos=HemanthBear99/HemanthBear99,HemanthBear99/Rocket,HemanthBear99/cs-flow&type=Date&theme=dark" alt="Star History Chart" />
