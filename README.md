@@ -86,8 +86,8 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 <!-- ACTIVITY-START -->
 - 🔨 Pushed to **Rocket**: "Pushed code"
 - 🔨 Pushed to **Rocket**: "Pushed code"
-- 🔨 Pushed to **HemanthBear99**: "Pushed code"
-- 🔨 Pushed to **HemanthBear99**: "Pushed code"
+- 🔨 Pushed to **Rocket**: "Pushed code"
+- 🔨 Pushed to **Rocket**: "Pushed code"
 - 🔨 Pushed to **HemanthBear99**: "Pushed code"
 <!-- ACTIVITY-END -->
 
