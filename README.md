@@ -25,7 +25,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 
 - 🔭 **Currently working on:**
 <!-- CURRENT-WORK-START -->
-<a href="https://github.com/HemanthBear99/Rocket"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=Rocket&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/HemanthBear99"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=HemanthBear99&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/cs-flow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=cs-flow&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a>
+<a href="https://github.com/HemanthBear99/Tri-Cress-Press"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=Tri-Cress-Press&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/Rocket"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=Rocket&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a> <a href="https://github.com/HemanthBear99/HemanthBear99"><img src="https://github-readme-stats.vercel.app/api/pin/?username=HemanthBear99&repo=HemanthBear99&theme=radical&bg_color=0D1117&title_color=39FF14&icon_color=39FF14" height="120" /></a>
 <!-- CURRENT-WORK-END -->
 - 💬 **Ask me about:** Java, Deep Learning, Medical AI, and Automated Workflows
 - ⚡ **Fun fact:** I can code a Thesis Auditor while simultaneously debugging a Spring Boot server
@@ -74,9 +74,9 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 <!-- PROJECTS-START -->
 | Project | Description | Tech |
 |--------|-------------|------|
-| **Rocket** | # RLV Phase-I Ascent Simulation... | Python |
+| **Tri-Cress-Press** | A premium publishing house website built with Next.js 16, featuring a dual-sided... | TypeScript |
+| **Rocket** | [](https://www.python.org/)... | Python |
 | **HemanthBear99** | I am a **Lead Full-Stack Architect** and **AI Researcher** bridging the gap betw... | — |
-| **cs-flow** | A full-stack, production-ready workflow and task management platform for teams w... | JavaScript |
 <!-- PROJECTS-END -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
@@ -84,7 +84,7 @@ I specialize in **Multimodal AI** and **Agentic Architectures**, designing auton
 ## 📈 Latest Activity
 
 <!-- ACTIVITY-START -->
-- 🔨 Pushed to **Rocket**: "Pushed code"
+- 🚀 Created new repository **Tri-Cress-Press**
 - 🔨 Pushed to **Rocket**: "Pushed code"
 - 🔨 Pushed to **Rocket**: "Pushed code"
 - 🔨 Pushed to **Rocket**: "Pushed code"
