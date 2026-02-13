@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run list:*)",
+      "Bash(where:*)",
+      "Bash(ls -la \"D:\\\\hemanth\\\\HemanthBear99\\\\.github\"\" 2>nul || echo \"No .github directory found \")",
+      "Bash(cmd.exe /c \"where gh\")",
+      "Bash(git -C \"D:/hemanth/HemanthBear99\" remote -v)"
+    ]
+  }
+}

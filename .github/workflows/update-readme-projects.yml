@@ -35,7 +35,7 @@ jobs:
 
               // Helper to get description from README if missing
               async function getDynamicDescription(repo) {
-                if (repo.description) return repo.description;
+                if (repo.description) return repo.description.replace(/\|/g, '\\|');
                 try {
                   const { data: readme } = await github.rest.repos.getReadme({
                     owner: repo.owner.login,
@@ -43,18 +43,25 @@ jobs:
                   });
                   const content = Buffer.from(readme.content, 'base64').toString('utf8');
 
-                  // Simple cleanup to find the first meaningful text
+                  // Robust cleanup to extract meaningful plain text
                   const cleanText = content
-                    .replace(/^#+\s+.+$/gm, '')        // Remove headers
-                    .replace(/!\[.*?\]\(.*?\)/g, '')   // Remove images
-                    .replace(/<[^>]*>/g, '')           // Remove HTML tags
-                    .replace(/\[([^\]]+)\]\(.*?\)/g, '$1') // Remove links but keep text
+                    .replace(/^#+\s+.+$/gm, '')                    // Remove headers
+                    .replace(/\[!\[.*?\]\(.*?\)\]\(.*?\)/g, '')     // Remove nested image links [![](img)](url)
+                    .replace(/!\[.*?\]\(.*?\)/g, '')                 // Remove images ![](url)
+                    .replace(/<[^>]*>/g, '')                         // Remove HTML tags
+                    .replace(/\[([^\]]+)\]\(.*?\)/g, '$1')           // Remove links, keep text
+                    .replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1')        // Remove bold/italic **text**
+                    .replace(/_{1,2}([^_]+)_{1,2}/g, '$1')           // Remove bold/italic __text__
+                    .replace(/`([^`]+)`/g, '$1')                     // Remove inline code
+                    .replace(/[^\x20-\x7E]/g, '')                    // Remove non-ASCII (emoji, garbled chars)
+                    .replace(/\s+/g, ' ')                            // Collapse whitespace
                     .split('\n')
                     .map(line => line.trim())
-                    .filter(line => line.length > 20 && !line.startsWith('|') && !line.startsWith('-')) // meaningful lines
+                    .filter(line => line.length > 20 && !line.startsWith('|') && !line.startsWith('-'))
                     .shift();
 
-                  return cleanText ? cleanText.substring(0, 80) + '...' : 'No description available';
+                  if (!cleanText || cleanText.trim().length < 10) return 'No description available';
+                  return cleanText.substring(0, 80).replace(/\|/g, '\\|') + '...';
                 } catch (e) {
                   return 'No description available';
                 }
